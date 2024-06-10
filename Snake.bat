@@ -4,7 +4,7 @@ IF not "%1" == "" (
     GOTO :%1
 )
 TITLE Snake
-MODE 30, 22
+MODE 60, 40
 FOR /F %%A in ('ECHO prompt $E^| cmd') DO SET "ESC=%%A"
 (CHCP 65001)>NUL
 
