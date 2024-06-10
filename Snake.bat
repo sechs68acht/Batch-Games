@@ -16,7 +16,7 @@ SET "snake[bou]=.0;0."
 SET "skin[1]=%ESC%[38;2;105;78;148m▒$%ESC%[38;2;184;20;184m▓"
 SET "skin[2]=%ESC%[38;2;235;180;52m♣$%ESC%[38;2;209;109;38m♥"
 SET "skin[3]=%ESC%[38;2;212;38;61m◙$%ESC%[38;2;222;100;116m◘"
-SET /A "map[width]=30", "map[height]=15", "char[0][x]=d[x]=3","char[0][y]=d[y]=3","snake[mass]=1","pel[x]=0","snake[speed]=16"
+SET /A "map[width]=30", "map[height]=15", "char[0][x]=d[x]=3","char[0][y]=d[y]=3","snake[mass]=1","pel[x]=0","snake[speed]=10"
 
 CALL :MAKEMAP %map[width]% %map[height]%
 
